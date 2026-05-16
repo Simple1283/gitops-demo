@@ -17,6 +17,7 @@ spec:
       containers:
       - name: nginx
         image: ghcr.io/simple1283/gitops-nginx:latest
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 80
